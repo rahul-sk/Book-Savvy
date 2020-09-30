@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node server",
     "server": "nodemon server"
-
   },
   "author": "Rahul S Koimattur",
   "license": "ISC",

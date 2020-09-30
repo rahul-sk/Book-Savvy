@@ -1,0 +1,4 @@
+{
+    "mongoURI" : "mongodb+srv://rahul123:7msg7yT616cAKaBB@devmeet.cscoj.mongodb.net/rahuldb?retryWrites=true&w=majority",
+    "jwtSecret":"mysecrettoken"
+}
