@@ -14,8 +14,8 @@ router.get('/', auth,async function(req,res){
         res.json(user);
     }
     catch(err){
-       console.error(error.message);
-       res.status(500).send('server error');
+       console.error(err.message);
+       res.status(500).send('Server Error');
     }
 });
 
@@ -23,7 +23,7 @@ router.get('/', auth,async function(req,res){
 
 router.post('/', [
     check("email","Please enter a valid Email ID").isEmail(),
-    check("password","please enter a password of minimum 6 characters").exists()
+    check("password","please enter a password of minimum 6 characters :( :(").exists()
 ],async function(req,res){
     const err=validationResult(req);
     if(!err.isEmpty()){
@@ -34,12 +34,12 @@ router.post('/', [
     try{
          let user=await User.findOne({email});
          if(!user){
-             return res.status(400).json({error : [{msg : "Invalid Credientials"}]});
+             return res.status(400).json({ero : [{msg : "Invalid Credientials"}]});
          }
         
          const isMatch=await bcrypt.compare(password,user.password);
          if(!isMatch){
-            return res.status(400).json({error : [{msg : "Invalid Credientials"}]});
+            return res.status(400).json({ero : [{msg : "Invalid Credientials"}]});
 
          }
 
