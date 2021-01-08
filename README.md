@@ -1,7 +1,7 @@
 # Book Savvy
 
 A Community for enthusiastic book readers to share there queries. Used Google Books API to dynamically update the UI with the Book Titles given the ISBN. <br/> <br/>
- [Project Demo Link](https://rocky-stream-54864.herokuapp.com/posts).
+ [Project Demo Link](https://dry-inlet-46044.herokuapp.com). 
 
 ## Functionality
 
