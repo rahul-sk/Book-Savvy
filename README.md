@@ -20,7 +20,7 @@ A Community for enthusiastic book readers to share there queries. Used Google Bo
 3. `cd client && npm install` - to install client dependencies
 4. `npm run dev` - runs backend and frontend with hotreload functionality
 
-References :
+## References :
 
 - Courses : Brad Traversy's MERN Stack course on udemy
 - Books : The Road to Learn React: Your Journey to Master Plain Yet Pragmatic React. Js By Robin Wieruch
