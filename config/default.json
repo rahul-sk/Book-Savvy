@@ -1,6 +1,6 @@
 {
-    "mongoURI" : "mongodb+srv://rahul123:7msg7yT616cAKaBB@devmeet.cscoj.mongodb.net/rahuldb?retryWrites=true&w=majority",
-    "jwtSecret":"mysecrettoken",
-    "githubClientId":"1ad55d44c1abc18ea85e",
-    "githubSecret":"bbda50f3813298a5f4bec53870571ed1db009546"
+    "mongoURI" : "",
+    "jwtSecret":"",
+    "githubClientId":"",
+    "githubSecret":""
 }
